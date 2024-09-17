@@ -1,0 +1,26 @@
+@import './base.css';
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game {
+  background: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  width: 50%;
+  min-width: 550px;
+  margin: 15px auto;
+  padding: 25px;
+}
+
+#errors {
+  position: fixed;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  margin: 15px auto;
+}
