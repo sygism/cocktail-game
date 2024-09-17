@@ -27,11 +27,10 @@ This project is a simple game of "Guess the Cocktail" built using Java, Spring B
 1. Clone the repository:
     ```sh
     git clone https://github.com/sygism/cocktail-game.git
-    cd guess-the-cocktail
     ```
 2. Assemble the project:
     ```sh
-    gradle assemble
+    ./gradlew assemble
     ```
 
 ### Running the Application
@@ -47,12 +46,12 @@ Required parameters:
 ___
 1. Start application:
     ```sh
-    gradle bootRun
+    ./gradlew bootRun
     ```
 ### Running Tests
 To run the tests:
 ```sh
-gradle test
+./gradlew test
 ```
 
 ### API Usage
